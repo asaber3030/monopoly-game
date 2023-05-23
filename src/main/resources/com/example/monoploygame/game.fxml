@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1080.0" maxWidth="1920.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: #111;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.monoploygame.PlayController">
+   <children>
+      <Rectangle fx:id="rect15" arcHeight="5.0" arcWidth="5.0" fill="#1c7cd9" height="110.0" layoutX="7.0" layoutY="7.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.5" width="140.0" />
+      <Rectangle fx:id="rect16" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="147.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect19" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="408.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect18" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="321.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect17" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="234.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect20" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="495.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect21" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="582.0" layoutY="7.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect22" arcHeight="5.0" arcWidth="5.0" fill="#1c7cd9" height="110.0" layoutX="669.0" layoutY="7.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.5" width="140.0" />
+      <Rectangle fx:id="rect14" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="117.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect9" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="552.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect10" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="465.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect11" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="378.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect12" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="291.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect13" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="7.0" layoutY="204.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect8" arcHeight="5.0" arcWidth="5.0" fill="#1c7cd9" height="110.0" layoutX="7.0" layoutY="639.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.5" width="140.0" />
+      <Rectangle fx:id="rect23" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="117.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect28" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="552.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect27" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="465.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect26" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="378.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect25" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="291.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect24" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="87.0" layoutX="669.0" layoutY="204.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="140.0" />
+      <Rectangle fx:id="rect1" arcHeight="5.0" arcWidth="5.0" fill="#1c7cd9" height="110.0" layoutX="669.0" layoutY="639.0" stroke="TRANSPARENT" strokeLineCap="ROUND" strokeType="INSIDE" strokeWidth="0.5" width="140.0" />
+      <Rectangle fx:id="rect7" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="147.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect4" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="408.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect5" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="321.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect6" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="234.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect3" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="495.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Rectangle fx:id="rect2" arcHeight="5.0" arcWidth="5.0" fill="#282828" height="110.0" layoutX="582.0" layoutY="639.0" opacity="0.43" stroke="BLACK" strokeLineCap="ROUND" strokeWidth="0.4" width="87.0" />
+      <Group fx:id="groupPlayer1" layoutX="1008.0" layoutY="16.0">
+         <children>
+            <Label fx:id="player1NameLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="32.0" text="Player #1" textFill="WHITE">
+               <font>
+                  <Font name="Arabic Typesetting" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1MoneyLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="118.0" text="1500" textFill="#57ff57">
+               <font>
+                  <Font name="Monospaced Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1PositionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="186.0" text="1" textFill="#a4dfff">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1StatusLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="264.0" text="Jail" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player1CitiesLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="350.0" text="Cities" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a433ff" height="29.0" layoutX="-38.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="29.0" />
+            <Button alignment="CENTER" layoutX="-7.0" layoutY="82.0" mnemonicParsing="false" onAction="#showP1MoneyHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+            <Button fx:id="showP1PositionHistory" alignment="CENTER" layoutX="-8.0" layoutY="157.0" mnemonicParsing="false" onAction="#showP1PositionHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+         </children>
+      </Group>
+      <Group fx:id="groupPlayer2" layoutX="1186.0" layoutY="17.0">
+         <children>
+            <Label fx:id="player2NameLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="30.0" text="Player #1" textFill="WHITE">
+               <font>
+                  <Font name="Arabic Typesetting" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2MoneyLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="117.0" text="8000" textFill="#57ff57">
+               <font>
+                  <Font name="Monospaced Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2PositionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="20.0" layoutY="185.0" text="2" textFill="#a4dfff">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2StatusLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-5.0" layoutY="262.0" text="Free" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player2CitiesLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-6.0" layoutY="349.0" text="Cities" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d2ff1f" height="29.0" layoutX="-36.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="29.0" />
+            <Button alignment="CENTER" layoutX="-6.0" layoutY="82.0" mnemonicParsing="false" onAction="#showP2MoneyHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+            <Button fx:id="showP2PositionHistory" alignment="CENTER" layoutX="-3.0" layoutY="157.0" mnemonicParsing="false" onAction="#showP2PositionHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+         </children>
+      </Group>
+      <Group fx:id="groupPlayer3" layoutX="1356.0" layoutY="17.0">
+         <children>
+            <Label fx:id="player3MoneyLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="121.0" text="700" textFill="#57ff57">
+               <font>
+                  <Font name="Monospaced Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player3PositionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="9.0" layoutY="183.0" text="6" textFill="#a4dfff">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player3StatusLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="259.0" text="Free" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player3CitiesLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="347.0" text="Cities" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player3NameLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="31.0" text="Player #1" textFill="WHITE">
+               <font>
+                  <Font name="Arabic Typesetting" size="22.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f43" height="29.0" layoutX="-37.0" layoutY="33.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="29.0" />
+            <Button fx:id="showP3MoneyHistory" alignment="CENTER" layoutX="-6.0" layoutY="82.0" mnemonicParsing="false" onAction="#showP3MoneyHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+            <Button fx:id="showP3PositionHistory" alignment="CENTER" layoutX="-13.0" layoutY="158.0" mnemonicParsing="false" onAction="#showP3PositionHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+         </children>
+      </Group>
+      <Group fx:id="groupPlayer4" layoutX="1511.0" layoutY="15.0">
+         <children>
+            <Label fx:id="player4NameLabel" alignment="CENTER" contentDisplay="CENTER" layoutY="33.0" text="Player #1" textFill="WHITE">
+               <font>
+                  <Font name="Arabic Typesetting" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="player4MoneyLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="126.0" text="9000" textFill="#57ff57">
+               <font>
+                  <Font name="Monospaced Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player4PositionLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="11.0" layoutY="186.0" text="3" textFill="#a4dfff">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player4StatusLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-2.0" layoutY="261.0" text="Free" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="player4CitiesLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="-4.0" layoutY="351.0" text="Cities" textFill="WHITE">
+               <font>
+                  <Font name="Nirmala UI Semilight" size="16.0" />
+               </font>
+            </Label>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff921f" height="29.0" layoutX="-37.0" layoutY="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="29.0" />
+            <Button fx:id="showP4MoneyHistory" alignment="CENTER" layoutX="-6.0" layoutY="87.0" mnemonicParsing="false" onAction="#showP4MoneyHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+            <Button fx:id="showP4PositionHistory" alignment="CENTER" layoutX="-10.0" layoutY="158.0" mnemonicParsing="false" onAction="#showP4PositionHistory" style="-fx-background-color: transparent;" text="History" textFill="#fffffffc" underline="true" />
+         </children>
+      </Group>
+      <Label layoutX="858.0" layoutY="117.0" text="Money" textFill="WHITE">
+         <font>
+            <Font name="Arabic Typesetting" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="854.0" layoutY="189.0" text="Position" textFill="WHITE">
+         <font>
+            <Font name="Arabic Typesetting" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="861.0" layoutY="276.0" text="Status" textFill="WHITE">
+         <font>
+            <Font name="Arabic Typesetting" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="862.0" layoutY="360.0" text="Cities" textFill="WHITE">
+         <font>
+            <Font name="Arabic Typesetting" size="22.0" />
+         </font>
+      </Label>
+      <Line endX="859.0" layoutX="1061.0" layoutY="170.0" opacity="0.48" startX="-135.0" strokeWidth="0.3" />
+      <Line endX="-135.5" endY="-510.0" layoutX="1061.0" layoutY="510.0" opacity="0.48" startX="-135.5" startY="570.0" strokeWidth="0.3" />
+      <Line endX="859.0" layoutX="1062.0" layoutY="247.0" opacity="0.48" startX="-135.0" strokeWidth="0.3" />
+      <Line endX="859.0" layoutX="1061.0" layoutY="334.0" opacity="0.48" startX="-135.0" strokeWidth="0.3" />
+      <Line endX="859.0" layoutX="1062.0" layoutY="679.0" opacity="0.48" startX="-135.0" strokeWidth="0.3" />
+      <Rectangle fx:id="player1Block" arcHeight="5.0" arcWidth="5.0" fill="#a433ff" height="20.0" layoutX="669.0" layoutY="640.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="player2Block" arcHeight="5.0" arcWidth="5.0" fill="#d2ff1f" height="20.0" layoutX="688.0" layoutY="640.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="player3Block" arcHeight="5.0" arcWidth="5.0" fill="#ff1f43" height="20.0" layoutX="708.0" layoutY="640.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Rectangle fx:id="player4Block" arcHeight="5.0" arcWidth="5.0" fill="#ff921f" height="20.0" layoutX="728.0" layoutY="640.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="20.0" />
+      <Label fx:id="diceResultLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="935.0" layoutY="705.0" prefHeight="37.0" prefWidth="976.0" text="Dice result goes here!" textFill="WHITE">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="799.0" layoutY="730.0" prefWidth="1.0" text="1" textFill="WHITE" />
+      <Label layoutX="619.0" layoutY="730.0" prefHeight="17.0" prefWidth="1.0" text="2" textFill="WHITE" />
+      <Label layoutX="532.0" layoutY="730.0" text="3" textFill="WHITE" />
+      <Label layoutX="448.0" layoutY="730.0" text="4" textFill="WHITE" />
+      <Label layoutX="361.0" layoutY="730.0" text="5" textFill="WHITE" />
+      <Label layoutX="274.0" layoutY="730.0" text="6" textFill="WHITE" />
+      <Label layoutX="184.0" layoutY="730.0" text="7" textFill="WHITE" />
+      <Label layoutX="11.0" layoutY="730.0" text="8" textFill="WHITE" />
+      <Label layoutX="796.0" layoutY="100.0" text="22" textFill="WHITE" />
+      <Label layoutX="618.0" layoutY="100.0" prefHeight="17.0" prefWidth="13.0" text="21" textFill="WHITE" />
+      <Label layoutX="533.0" layoutY="100.0" text="20" textFill="WHITE" />
+      <Label layoutX="449.0" layoutY="100.0" text="19" textFill="WHITE" />
+      <Label layoutX="362.0" layoutY="100.0" text="18" textFill="WHITE" />
+      <Label layoutX="275.0" layoutY="100.0" text="17" textFill="WHITE" />
+      <Label layoutX="185.0" layoutY="100.0" text="16" textFill="WHITE" />
+      <Label layoutX="132.0" layoutY="100.0" text="15" textFill="WHITE" />
+      <Label layoutX="135.0" layoutY="590.0" prefWidth="1.0" rotate="-90.0" text="9" textFill="WHITE" />
+      <Label layoutX="130.0" layoutY="503.0" prefHeight="17.0" prefWidth="17.0" rotate="-90.0" text="10" textFill="WHITE" />
+      <Label layoutX="130.0" layoutY="416.0" prefHeight="17.0" prefWidth="17.0" rotate="-90.0" text="11" textFill="WHITE" />
+      <Label layoutX="130.0" layoutY="329.0" prefHeight="17.0" prefWidth="17.0" rotate="-90.0" text="12" textFill="WHITE" />
+      <Label layoutX="130.0" layoutY="251.0" prefHeight="17.0" prefWidth="17.0" rotate="-90.0" text="13" textFill="WHITE" />
+      <Label layoutX="130.0" layoutY="155.0" prefHeight="17.0" prefWidth="17.0" rotate="-90.0" text="14" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="587.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="28" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="500.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="27" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="413.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="26" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="326.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="25" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="248.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="24" textFill="WHITE" />
+      <Label layoutX="794.0" layoutY="152.0" prefHeight="17.0" prefWidth="17.0" rotate="90.0" text="23" textFill="WHITE" />
+      <ImageView fitHeight="110.0" fitWidth="173.0" layoutX="353.0" layoutY="305.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/game.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="78.0" layoutX="45.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/jail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="78.0" layoutX="45.0" layoutY="662.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/go_to_jail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="54.0" fitWidth="88.0" layoutX="695.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/parking.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="78.0" layoutX="700.0" layoutY="692.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/start.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="51.0" layoutX="166.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/chance.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="64.0" layoutX="422.0" layoutY="667.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/chance.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="38.0" layoutX="348.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/electric.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="47.0" fitWidth="38.0" layoutX="520.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/train.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="78.0" layoutX="241.0" layoutY="655.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/tax-remove.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="78.0" layoutX="53.0" layoutY="401.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/chest.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="715.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/water.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="DCNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="49.0" layoutY="148.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="DCPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="181.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="WhiteHouseNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="254.0" layoutY="40.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="WhiteHousePriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="262.0" layoutY="73.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="FCBarcelonaNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="328.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="FCBarcelonaPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="357.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="MadridNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="502.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="MadridPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="60.0" layoutY="532.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="BerlinNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="52.0" layoutY="583.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="BerlinPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="615.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="LondonNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="49.0" layoutY="236.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="LondonPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="57.0" layoutY="268.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="SevilleNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="714.0" layoutY="236.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="SevillePriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="721.0" layoutY="268.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="MexicoNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="710.0" layoutY="148.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="MexicoPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="720.0" layoutY="181.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="ManchesterNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="714.0" layoutY="415.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="WHITE">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="ManchesterPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="721.0" layoutY="445.0" text="1,500 $" textFill="WHITE">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="RomeNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="711.0" layoutY="583.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="RomePriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="718.0" layoutY="615.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="BuenosIrisNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="597.0" layoutY="40.0" prefHeight="25.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="BuenosIrisPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="604.0" layoutY="73.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="ParisNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="163.0" layoutY="677.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="ParisPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="171.0" layoutY="707.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="IstanbulNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="339.0" layoutY="682.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="IstanbulPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="347.0" layoutY="707.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="SydneyNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="511.0" layoutY="679.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="SydneyPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="519.0" layoutY="707.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="NewYorkNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="598.0" layoutY="677.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="NewYorkPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="605.0" layoutY="707.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="MumbaiNameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="426.0" layoutY="40.0" prefHeight="20.0" prefWidth="56.0" text="Egypt" textFill="#d0ffc7">
+         <font>
+            <Font name="Arabic Typesetting" size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="MumbaiPriceLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="434.0" layoutY="75.0" text="1,500 $" textFill="#08ff31">
+         <font>
+            <Font name="AGA Arabesque" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="48.0" layoutX="718.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../assets/images/chest.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="nextButton" layoutX="1317.0" layoutY="875.0" mnemonicParsing="false" onAction="#next" prefHeight="30.0" prefWidth="100.0" text="Next" />
+      <Button fx:id="playButton" layoutX="1210.0" layoutY="875.0" mnemonicParsing="false" onAction="#play" prefHeight="30.0" prefWidth="100.0" text="Throw Dice!" />
+      <Button fx:id="buyButton" layoutX="1426.0" layoutY="875.0" mnemonicParsing="false" onAction="#buy" prefHeight="30.0" prefWidth="100.0" text="Buy" />
+      <Button fx:id="sellButton" layoutX="1537.0" layoutY="875.0" mnemonicParsing="false" onAction="#sell" prefHeight="30.0" prefWidth="100.0" text="Sell" />
+      <Button fx:id="buildHotelBtn" layoutX="1317.0" layoutY="928.0" mnemonicParsing="false" onAction="#buildHotel" prefHeight="30.0" prefWidth="100.0" text="Build Hotel" />
+      <Button fx:id="sellButton11" layoutX="1424.0" layoutY="928.0" mnemonicParsing="false" onAction="#buildGarage" prefHeight="30.0" prefWidth="100.0" text="Build Garage" />
+      <Rectangle fx:id="belongsRect14" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="117.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect12" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="291.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect11" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="378.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect10" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="466.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect9" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="553.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect16" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="148.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect17" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="235.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect18" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="322.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect19" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="407.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect20" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="494.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect21" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="581.0" layoutY="95.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect2" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="582.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect3" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="494.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect4" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="406.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect5" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="319.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect6" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="231.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect7" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="147.0" layoutY="727.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect13" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="125.0" layoutY="205.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect23" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="117.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect25" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="291.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect26" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="378.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 1;" width="22.0" />
+      <Rectangle fx:id="belongsRect27" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="466.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect28" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="553.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect24" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="788.0" layoutY="205.0" opacity="0.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect1" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="672.0" layoutY="724.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect8" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="34.0" layoutY="725.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+      <Rectangle fx:id="belongsRect15" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="87.0" layoutX="18.0" layoutY="20.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="22.0" />
+      <Rectangle fx:id="belongsRect22" arcHeight="5.0" arcWidth="5.0" fill="#fffffff0" height="22.0" layoutX="705.0" layoutY="89.0" stroke="TRANSPARENT" strokeType="INSIDE" style="-fx-view-order: 2;" width="87.0" />
+   </children>
+</Pane>
